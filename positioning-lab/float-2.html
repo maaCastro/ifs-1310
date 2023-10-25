@@ -31,6 +31,7 @@
       margin-right: auto;
       margin-left: auto;
       text-shadow: 2px 2px #000;
+      overflow:hidden
     }
     #navy {
       background-color: #001f3f;
@@ -44,13 +45,36 @@
     #aqua {
       background-color: #7FDBFF;
     }
+#navy,
+#teal,
+#blue,
+#aqua {
+  width: 190px;
+  height: 100px;
+  margin: 5px;
+  float: left;
+  text-align: center;
+  line-height: 100px;
+}
+
+
     #footer {
-      background-color: #666;
+      clear: both;
+  background-color: #666;
+  text-align: center;
+  line-height: 40px;
+  width: 800px;
+  position: absolute;
+bottom:0;
     }
     h1 {
       color: #000;
       font-weight: normal;
       padding: 50px;
+    }
+    section#wrapper {
+  display: flex;
+  flex-wrap: nowrap;
     }
   </style>
 </head>
