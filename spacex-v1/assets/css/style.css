@@ -18,7 +18,7 @@ html {
   
   /* ---- Responsive Images ----*/
   img {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
   }
   
@@ -29,11 +29,11 @@ html {
   }
   
   header.primary {
-    background-color: #181c1f;
+    background-color: #000000;
     text-align: center;
     color: #ffffff;
     text-shadow: 2px 2px #000000;
-    padding: 6em 2em;
+    padding: 8em 2em;
     position: relative;
   }
   
@@ -43,20 +43,20 @@ html {
     background-size: cover;
     position: absolute;
     top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.4;
+    right: 25px;
+    bottom: 10px;
+    left: 25px;
+    opacity: 0.9;
   }
   
   header.primary h1 {
     font-size: 3.2rem;
-    margin: 20px 0;
+    margin: 10px 0;
     position: relative;
   }
   
   header.primary h1 a {
-    color: #ffffff;
+    color: #000000;
     background-image: url("https://assets.codepen.io/7248/logo-2.png");
     display: block;
     width: 460px;
@@ -69,9 +69,11 @@ html {
   
   header.primary h2 {
     font-family: "Goldman", cursive;
-    font-size: 2em;
-    margin: 150px auto 40px;
+    font-size: 3em;
+    margin: 200px auto 40px;
     position: relative;
+    opacity: 0.55;
+    
   }
   
   header.primary nav ul {
